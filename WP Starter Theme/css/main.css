@@ -1,0 +1,48 @@
+/* COLORS */
+.green{color: green;}
+.bg-green{background-color: green;}
+
+/* DEFAULTS */
+:root {font-size: 16pt;}
+* {font-family: 'Open Sans', sans-serif;color: #333;font-size: 1rem;}
+body,html {margin: 0;}
+img {max-width: 100%;}
+
+/* TREE STYLING
+
+nav styles */
+.navbar {
+    margin-bottom: 0;
+}
+@media (min-width: 768px) {
+    .navbar {
+        border-radius: 0;
+    }
+}
+
+.navbar #menu-header-menu {
+    list-style: none;
+    padding: 10px 0;
+}
+
+.navbar #menu-header-menu li a {
+    color: #fff;
+}
+
+/* home page styles */
+.jumbotron {
+    background-image: url(../img/mountain.jpg); 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    height: 600px;
+}
+
+.widget li {
+    list-style: none;
+}
+
+/* footer styles */
+footer {
+    background-color: #ccc;
+}
