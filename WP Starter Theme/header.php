@@ -8,10 +8,11 @@
     <title><?php bloginfo('name'); ?></title>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <script src="<?php bloginfo('template_directory'); ?>/js/jquery-3.2.1.min.js"></script>
-    <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.css"></script>
+    <script src="<?php bloginfo('template_directory'); ?>/js/bootstrap.min.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/smooth-scroll.js"></script>
     <script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
     <link rel="stylesheet" href="<?php bloginfo('stylesheet_url'); ?>" type="text/css" media="screen" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,300italic,700' rel='stylesheet' type='text/css'>
 

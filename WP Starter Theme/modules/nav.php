@@ -1,4 +1,4 @@
-<nav class="navbar navbar-inverse">
+<nav class="navbar navbar-inverse navbar-fixed-top">
   <div class="container-fluid">
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
@@ -10,7 +10,7 @@
       </button>
       
       <!-- the path below places the directory into the theme folder -->
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Disney DJ</a>
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Be Our Guest</a>
       <!-- <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_directory'); ?>/img/harmonyfavicon.png" height="35" alt="harmony img"></a> -->
     </div>
 

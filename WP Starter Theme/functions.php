@@ -31,13 +31,13 @@ add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 /* Custom Shortcodes */
 
-function trainerProfiles() {
-    $trainers = [Jim, Bob, Gary];
+// function trainerProfiles() {
+//     $trainers = [Jim, Bob, Gary];
 
-    for($i=0; $i<=2; $i++) {
-        echo '<div class="col-sm-4 well">',$trainers[$i], '</div>'; 
-    }
-}
-add_shortcode( "trainers", "trainerProfiles");
+//     for($i=0; $i<=2; $i++) {
+//         echo '<div class="col-sm-4 well">',$trainers[$i], '</div>'; 
+//     }
+// }
+// add_shortcode( "trainers", "trainerProfiles");
 
 ?>
