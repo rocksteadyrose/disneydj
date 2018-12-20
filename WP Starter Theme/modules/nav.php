@@ -18,13 +18,13 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="navbar-nav nav navbar-right">
        <li class="active nav-item">
-          <a class="nav-link" href="#about">About <span class="sr-only">(Current)</span></a></li>
+          <a class="nav-link" href="about">About <span class="sr-only">(Current)</span></a></li>
        <li class="nav-item">
-          <a class="nav-link" href="#events">Events</a></li>
+          <a class="nav-link" href="events">Events</a></li>
        <li class="nav-item">
-          <a class="nav-link" href="#">Photos</a></li>
+          <a class="nav-link" href="photos">Photos</a></li>
        <li class="nav-item">
-          <a class="nav-link" href="#">Press</a></li>
+          <a class="nav-link" href="press">Press</a></li>
       <!--setting for the theme location and header menu in WP -->
       <?php wp_nav_menu( array( 'theme_location' => 'header-menu' ) ); ?>
     </ul>

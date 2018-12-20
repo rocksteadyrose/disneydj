@@ -76,15 +76,22 @@ nav styles */
   }
 
   /* arrow */
-  .fa-arrow-down {
-      color: white;
-      margin-top: 40px;
-  }
 
-  .arrow a:hover {
-    text-decoration: none;
-    color: black;
-  }
+    #arrow a:visited {
+        text-decoration: none;
+        color: rgb(11, 255, 255);
+    }
+
+    #arrow a {
+        color: rgb(11, 255, 255);
+        margin-top: 40px;
+        text-decoration: none;
+    }
+
+    #arrow a:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+    }
 
   .bounce {
     -moz-animation: bounce 2s infinite;
@@ -105,48 +112,53 @@ nav styles */
     }
   }
 
-a.btn.btn-primary.btn-lg {
+/* a.btn.btn-primary.btn-lg {
     background-color: rgb(11, 255, 255);
     color: black;
-}
+} */
 
 .widget li {
     list-style: none;
 }
 
-/* about styles */
-
-#about {
+/* whatis and gallery styles */
+#learnmore, #photogallery {
     background-color: black;
     padding: 60px 0 60px 0;
     margin: 0px;
 }
 
-#about p, #about h1 {
+#learnmore p, #learnmore h1, #photogallery h1 {
     color: rgb(255, 0, 128);
 }
 
-/* about styles */
-#events {
-    background-color: rgb(114, 28, 185);
+/* event styles */
+#eventinfo {
+    background-color: rgb(255, 255, 255);
     padding: 0px;
     margin: 0px;
 }
 
 /* contact styles */
 .contactsection {
-    background-color: rgb(255, 136, 89);
+    background-image: linear-gradient(to top, #c50294 0%, #000000 100%);
     width: 100%;
     padding-bottom: 20px;
+    color: white;
 }
 
-.socials a {
+#socialicons a {
     text-decoration: none;
 }
 
 .socials a:hover .fa-twitter, .socials a:hover .fa-facebook, .socials a:hover .fa-instagram, .socials a:hover .fa-envelope {
-    color: white;
+    color: rgb(11, 255, 255);
 }
+
+.socials .fa-twitter, .fa-heart, .socials .fa-facebook, .socials .fa-instagram, .socials .fa-envelope {
+color: white;
+}
+
 
 /* footer styles */
 footer {
