@@ -24,11 +24,11 @@
                 <!-- <p class="lead">Disney Night NYC</p> -->
                 <hr class="my-4">
                 <p>The home of the two most epic DJ parties: DISNEY NIGHT + BROADWAY NIGHT.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">LEARN MORE</a>
+                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">LEARN MORE</a> -->
             </div>
         </div>
 
-        <div class="row arrow bounce text-center">
+        <div class="row bounce text-center" id="arrow">
             <div class="col-xs-12">
                 <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#learnmore"></a>
             </div>

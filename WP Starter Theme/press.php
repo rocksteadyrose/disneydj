@@ -24,11 +24,11 @@
                 <!-- <p class="lead">Disney Night NYC</p> -->
                 <hr class="my-4">
                 <p>The home of the two most epic DJ parties: DISNEY NIGHT + BROADWAY NIGHT.</p>
-                <a class="btn btn-primary btn-lg" href="#" role="button">LEARN MORE</a>
+                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">LEARN MORE</a> -->
             </div>
         </div>
 
-        <div class="row arrow bounce text-center">
+        <div class="row bounce text-center" id="arrow">
             <div class="col-xs-12">
                 <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#learnmore"></a>
             </div>
@@ -38,36 +38,11 @@
 
 </div>
 
-<!-- <div class="widgets">
+
+<section class="col-xs-12 mb-15" id="pressinfo">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_1' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_1' ); ?>
-                <?php endif; ?>
-            </div>
-
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_2' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_2' ); ?>
-                <?php endif; ?>
-            </div>
-
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_3' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_3' ); ?>
-                <?php else : ?>
-                widget 3
-                <?php endif; ?>
-            </div>
-        </div>
-    </div>
-</div> -->
-
-<section class="col-xs-12 mb-15" id="learnmore">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-6 container whatis">
+            <div class="col-xs-12 col-md-6 container">
                 <h1>PRESSSSSSS</h1>
                 <?php the_content(); ?>
             </div>

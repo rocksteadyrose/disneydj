@@ -6,9 +6,6 @@
 <?php get_header(); ?>
 <?php include_once( 'modules/nav.php' ); ?>
 
-<?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
-
-
 <div class="jumbotron jumbotron-fluid">
 
     <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">    
@@ -37,6 +34,8 @@
     </div>
 
 </div>
+
+<?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
 
 <!-- <div class="widgets">
     <div class="container">

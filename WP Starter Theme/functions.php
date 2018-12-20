@@ -24,6 +24,11 @@ function register_my_menu() {
 		'name'          => 'Home Widget 3',
 		'id'            => 'home_widget_3',
 	)
+	 );
+	 register_sidebar( array(
+		'name'          => 'Home Widget 4',
+		'id'            => 'home_widget_4',
+	)
  	);
 }
 
