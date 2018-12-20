@@ -10,7 +10,7 @@
       </button>
       
       <!-- the path below places the directory into the theme folder -->
-      <a class="navbar-brand js-scroll-trigger" href="#page-top">Be Our Guest</a>
+      <a class="navbar-brand js-scroll-trigger" id="brand" href="#page-top">Be Our Guest</a>
       <!-- <a class="navbar-brand" href="#"><img src="<?php bloginfo('template_directory'); ?>/img/harmonyfavicon.png" height="35" alt="harmony img"></a> -->
     </div>
 
@@ -18,9 +18,9 @@
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
     <ul class="navbar-nav nav navbar-right">
        <li class="active nav-item">
-          <a class="nav-link" href="#">About <span class="sr-only">(Current)</span></a></li>
+          <a class="nav-link" href="#about">About <span class="sr-only">(Current)</span></a></li>
        <li class="nav-item">
-          <a class="nav-link" href="#">Events</a></li>
+          <a class="nav-link" href="#events">Events</a></li>
        <li class="nav-item">
           <a class="nav-link" href="#">Photos</a></li>
        <li class="nav-item">

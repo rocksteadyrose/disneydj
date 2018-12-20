@@ -19,20 +19,21 @@
 
     <div class="container text-white">
         <div class="row">
-            <div class="col-xs-8" id="jumbotrontext">
-                <h1 class="display-4">Hello, world!</h1>
-                <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+            <div class="col-xs-6" id="jumbotrontext">
+                <h1 class="display-4">BE OUR GUEST NYC</h1>
+                <!-- <p class="lead">Disney Night NYC</p> -->
                 <hr class="my-4">
-                <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
+                <p>The home of the two most epic DJ parties: DISNEY NIGHT + BROADWAY NIGHT.</p>
                 <a class="btn btn-primary btn-lg" href="#" role="button">LEARN MORE</a>
             </div>
         </div>
-    </div>
 
-    <div class="row arrow bounce text-center">
-        <div class="col-xs-12">
-            <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#"></a>
+        <div class="row arrow bounce text-center">
+            <div class="col-xs-12">
+                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#about"></a>
+            </div>
         </div>
+
     </div>
 
 </div>
@@ -63,16 +64,38 @@
     </div>
 </div> -->
 
-<main class="col-xs-12 mb-15">
+<section class="col-xs-12 mb-15" id="about">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 container aboutus">
+            <div class="col-xs-12 col-md-6 container aboutus">
                 <h1>ABOUT US</h1>
+                <?php the_content(); ?>
             </div>
-        <?php the_content(); ?>
+            <div class="container aboutus">
+               <div class="widgets">
+                    <div class="container">
+                        <div class="col-xs-12 col-md-6 widget text-center">
+                            <?php if ( is_active_sidebar( 'home_widget_2' ) ) : ?>
+                            <?php dynamic_sidebar( 'home_widget_2' ); ?>
+                            <?php endif; ?>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
         </div>
     </div>
-</main>
+</section>
+
+<section class="col-xs-12 mb-15" id="events">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 container events">
+                <h1>EVENTS</h1>
+            </div>
+        </div>
+    </div>
+</section>
 
 <div class="col-xs-12 container contactsection">
       <h2 class="text-center">We'd

@@ -1,3 +1,6 @@
+html {
+    scroll-behavior: smooth;
+  }
 /* COLORS */
 .green{color: green;}
 .bg-green{background-color: green;}
@@ -23,6 +26,10 @@ nav styles */
     border: none;
 }
 
+#brand {
+    color: rgb(11, 255, 255);
+}
+
 .navbar.scrolled {
     background: rgb(68, 68, 68); /* IE */
     background: rgba(0, 0, 0, 0.78); /* NON-IE */
@@ -44,7 +51,10 @@ nav styles */
     position: relative;
     overflow: hidden;
     background-color:black;
+    margin: 0px;
+    padding-bottom: 50px;
   }
+  
   .jumbotron video {
     position: absolute;
     z-index: 1;
@@ -65,14 +75,40 @@ nav styles */
       margin-top: 20px;
   }
 
+  /* arrow */
   .fa-arrow-down {
       color: white;
       margin-top: 40px;
   }
 
-/* a.btn.btn-primary.btn-lg {
-    margin-top: 90px;
-} */
+  .arrow a:hover {
+    text-decoration: none;
+    color: black;
+  }
+
+  .bounce {
+    -moz-animation: bounce 2s infinite;
+    -webkit-animation: bounce 2s infinite;
+    animation: bounce 2s infinite;
+    z-index: 1;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
+
+a.btn.btn-primary.btn-lg {
+    background-color: rgb(11, 255, 255);
+    color: black;
+}
 
 .widget li {
     list-style: none;
@@ -80,15 +116,36 @@ nav styles */
 
 /* about styles */
 
-/* .aboutus {
-    margin-top: 100px;
-} */
+#about {
+    background-color: black;
+    padding: 60px 0 60px 0;
+    margin: 0px;
+}
+
+#about p, #about h1 {
+    color: rgb(255, 0, 128);
+}
+
+/* about styles */
+#events {
+    background-color: rgb(114, 28, 185);
+    padding: 0px;
+    margin: 0px;
+}
 
 /* contact styles */
 .contactsection {
     background-color: rgb(255, 136, 89);
     width: 100%;
     padding-bottom: 20px;
+}
+
+.socials a {
+    text-decoration: none;
+}
+
+.socials a:hover .fa-twitter, .socials a:hover .fa-facebook, .socials a:hover .fa-instagram, .socials a:hover .fa-envelope {
+    color: white;
 }
 
 /* footer styles */
