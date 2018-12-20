@@ -9,7 +9,7 @@
 <div class="jumbotron jumbotron-fluid">
 
     <video autoplay muted loop poster="https://dummyimage.com/900x400/000/fff">    
-        <source src="https://clips.vorwaerts-gmbh.de/big_buck_bunny.mp4" data-src="" type="video/mp4">
+        <source src="https://i.imgur.com/wCgyi0P.mp4" data-src="" type="video/mp4">
         <!-- <source src="" data-src="//clips.vorwaerts-gmbh.de/big_buck_bunny.webm" type="video/webm"> -->
         <!-- <source src="" data-src="//clips.vorwaerts-gmbh.de/big_buck_bunny.ogv" type="video/ogg"> -->
     </video>
