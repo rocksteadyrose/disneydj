@@ -25,6 +25,8 @@
           <a class="nav-link" href="photos">Photos</a></li>
        <li class="nav-item">
           <a class="nav-link" href="press">Press</a></li>
+      <li class="nav-item">
+      <a class="nav-link" href="#contact">Contact</a></li>
       <!--setting for the theme location and header menu in WP -->
     </ul>
     </div><!-- /.navbar-collapse -->

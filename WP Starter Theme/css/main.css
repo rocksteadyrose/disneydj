@@ -28,7 +28,7 @@ nav styles */
 
 .navbar #menu-header-menu li a {
     color: rgb(11, 255, 255);
-    justify-content: space-around;
+    text-decoration: none;
 }
 
 .navbar.scrolled {
@@ -135,11 +135,14 @@ nav styles */
 
 /* event styles */
 #eventinfo {
-    background-color: white;
+    background-image: linear-gradient(to top, #000000 0%, #ffffff 100%);
     padding: 0px;
     margin: 0px;
 }
 
+.tribe-events-list-event-description p, .tribe-delimiter, .events h1, .tribe-event-date-start, .tribe-event-schedule-details, .tribe-event-date-end, .tribe-events-venue-details, .tribe-country-name, .tribe-locality {
+    color: #f900d4
+}
 /* contact styles */
 .contactsection {
     background-image: linear-gradient(to top, #c50294 0%, #000000 100%);
@@ -149,7 +152,8 @@ nav styles */
 }
 
 .contactsectionevents {
-    background-image: linear-gradient(to top, #c50294 20%, #ffffff 100%);
+    background-image: linear-gradient(to top, #c50294 20%, #000000 100%);
+    color: white;
 }
 
 #socialicons a {

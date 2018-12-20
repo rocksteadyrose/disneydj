@@ -30,39 +30,13 @@
 
         <div class="row bounce text-center" id="arrow">
             <div class="col-xs-12">
-                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#learnmore"></a>
+                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#eventinfo"></a>
             </div>
         </div>
 
     </div>
 
 </div>
-
-<!-- <div class="widgets">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_1' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_1' ); ?>
-                <?php endif; ?>
-            </div>
-
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_2' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_2' ); ?>
-                <?php endif; ?>
-            </div>
-
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_3' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_3' ); ?>
-                <?php else : ?>
-                widget 3
-                <?php endif; ?>
-            </div>
-        </div>
-    </div>
-</div> -->
 
 <section class="col-xs-12 mb-15" id="eventinfo">
     <div class="container">
@@ -71,32 +45,11 @@
                 <h1>EVENTS</h1>
                 <?php the_content(); ?>
             </div>
-            <div class="container aboutus">
-               <div class="widgets">
-                    <!-- <div class="container">
-                        <div class="col-xs-12 col-md-6 widget text-center">
-                            <?php if ( is_active_sidebar( 'home_widget_2' ) ) : ?>
-                            <?php dynamic_sidebar( 'home_widget_2' ); ?>
-                            <?php endif; ?>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
-            </div>
         </div>
     </div>
 </section>
 
-<!-- <section class="col-xs-12 mb-15" id="events">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 container events">
-                <h1>EVENTS</h1>
-        </div>
-    </div>
-</section> -->
-
-<div class="col-xs-12 container contactsectionevents">
+<div class="col-xs-12 container contactsectionevents" id="contact">
       <h2 class="text-center">We'd
         <i class="fa fa-heart"></i>
         to hear from you!</h2>

@@ -30,7 +30,7 @@
 
         <div class="row bounce text-center" id="arrow">
             <div class="col-xs-12">
-                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#learnmore"></a>
+                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#about"></a>
             </div>
         </div>
 
@@ -57,7 +57,7 @@
 </section>
 
 
-<div class="col-xs-12 container contactsection">
+<div class="col-xs-12 container contactsection" id="contact">
       <h2 class="text-center">We'd
         <i class="fa fa-heart"></i>
         to hear from you!</h2>
