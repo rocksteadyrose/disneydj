@@ -30,7 +30,7 @@
 
         <div class="row bounce text-center" id="arrow">
             <div class="col-xs-12">
-                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#learnmore"></a>
+                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#pressinfo"></a>
             </div>
         </div>
 
@@ -61,15 +61,6 @@
         </div>
     </div>
 </section>
-
-<!-- <section class="col-xs-12 mb-15" id="events">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 container events">
-                <h1>EVENTS</h1>
-        </div>
-    </div>
-</section> -->
 
 <div class="col-xs-12 container contactsection" id="contact">
       <h2 class="text-center">We'd

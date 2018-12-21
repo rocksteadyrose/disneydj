@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -18,11 +17,7 @@
 
     <!-- gets all the essentials for wordpress to start up a website !-->
     <?php wp_head(); ?>
-
-
 </head>
-
-
 
 <?php if(is_page_template('page-landing.php')) {?> <body class="landing">
 <?php } else { ?><body><?php } ?>

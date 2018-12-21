@@ -2,10 +2,12 @@
 define( 'TEMPPATH', get_bloginfo('stylesheet_directory'));
 define( 'IMAGES', TEMPPATH. "/img");
 
-function register_my_menu() {
-    register_nav_menu('header-menu',__( 'Header Menu' ));
-  }
-  add_action( 'init', 'register_my_menu' );
+// Register Custom Navigation Walker
+require_once get_template_directory() . '/wp-bootstrap-navwalker.php';
+
+register_nav_menus( array(
+    'primary' => __( 'Primary Menu', 'primarynav' ),
+) );
 
   /* Register our widgetized areas. */
 
@@ -35,14 +37,5 @@ function register_my_menu() {
 add_action( 'widgets_init', 'arphabet_widgets_init' );
 
 /* Custom Shortcodes */
-
-// function trainerProfiles() {
-//     $trainers = [Jim, Bob, Gary];
-
-//     for($i=0; $i<=2; $i++) {
-//         echo '<div class="col-sm-4 well">',$trainers[$i], '</div>'; 
-//     }
-// }
-// add_shortcode( "trainers", "trainerProfiles");
 
 ?>
