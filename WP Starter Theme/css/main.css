@@ -26,17 +26,19 @@ nav styles */
     border: none;
 }
 
-#menu-header-menu #menu-item-181 a, #menu-header-menu #menu-item-179 a, #menu-header-menu #menu-item-178 a, #menu-header-menu #menu-item-176 a, #menu-header-menu #menu-item-177 a {
-    color: rgb(11, 255, 255);
-    padding: 5px 2px 5px 2px;
-    text-align: right;
-}
-
- */
-
 .navbar.scrolled {
     background: rgb(68, 68, 68); /* IE */
     background: rgba(0, 0, 0, 0.78); /* NON-IE */
+}
+
+#menu-header-menu #menu-item-192 a, #menu-header-menu #menu-item-179 a, #menu-header-menu #menu-item-178 a, #menu-header-menu #menu-item-176 a, #menu-header-menu #menu-item-177 a {
+    color: rgb(11, 255, 255);
+    padding: 5px 3px;
+    margin: 0 10px 0 5px
+}
+
+#menu-header-menu #menu-item-181 a:hover, #menu-header-menu #menu-item-179 a:hover, #menu-header-menu #menu-item-178 a:hover, #menu-header-menu #menu-item-176 a:hover, #menu-header-menu #menu-item-177 a:hover {
+    color:white;
 }
 
 @media (min-width: 768px) {

@@ -2,7 +2,7 @@
 	<div class="container-fluid">
 		<!-- Brand and toggle get grouped for better mobile display -->
 		<div class="navbar-header">
-			<button type="button navbar-right" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
 				<span class="sr-only">Toggle navigation</span>
         		<span class="icon-bar"></span>
         		<span class="icon-bar"></span>
@@ -11,7 +11,8 @@
     		<a class="navbar-brand" href="<?php echo home_url(); ?>">
 				<?php bloginfo('name'); ?>
         	</a>
-		</div>
+    </div>
+    <div class="navbar-right">
         <?php
         wp_nav_menu( array(
             'theme_location'    => 'primary',
