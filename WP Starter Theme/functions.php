@@ -13,23 +13,23 @@ register_nav_menus( array(
 
   function arphabet_widgets_init() {
 	register_sidebar( array(
-		'name'          => 'Home Widget 1',
-		'id'            => 'home_widget_1',
+		'name'          => 'Event Widget',
+		'id'            => 'event_widget',
 	)
  	);
 	register_sidebar( array(
-		'name'          => 'Home Widget 2',
-		'id'            => 'home_widget_2',
+		'name'          => 'Landing Photo Widget',
+		'id'            => 'landingphoto_widget',
 	)
  	);
 	register_sidebar( array(
-		'name'          => 'Home Widget 3',
-		'id'            => 'home_widget_3',
+		'name'          => 'Gallery Widget',
+		'id'            => 'gallery_widget',
 	)
 	 );
 	 register_sidebar( array(
-		'name'          => 'Home Widget 4',
-		'id'            => 'home_widget_4',
+		'name'          => 'About Widget',
+		'id'            => 'about_widget',
 	)
  	);
 }

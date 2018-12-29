@@ -49,8 +49,8 @@
                 <div class="widgets">
                     <div class="container">
                             <div class="col-xs-12 widget">
-                                <?php if ( is_active_sidebar( 'home_widget_3' ) ) : ?>
-                                <?php dynamic_sidebar( 'home_widget_3' ); ?>
+                                <?php if ( is_active_sidebar( 'gallery_widget' ) ) : ?>
+                                <?php dynamic_sidebar( 'gallery_widget' ); ?>
                                 <?php else : ?>
                                 <?php endif; ?>
                             </div>

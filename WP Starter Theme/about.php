@@ -46,10 +46,10 @@
                 <?php the_content(); ?>
             </div>
             <div class="col-xs-12 col-md-6 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_4' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_4' ); ?>
+                <?php if ( is_active_sidebar( 'about_widget' ) ) : ?>
+                <?php dynamic_sidebar( 'about_widget' ); ?>
                 <?php else : ?>
-                widget 3
+                About widget
                 <?php endif; ?>
             </div>
         </div>

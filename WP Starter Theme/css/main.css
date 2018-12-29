@@ -37,7 +37,7 @@ nav styles */
     margin: 0 10px 0 5px
 }
 
-#menu-header-menu #menu-item-181 a:hover, #menu-header-menu #menu-item-179 a:hover, #menu-header-menu #menu-item-178 a:hover, #menu-header-menu #menu-item-176 a:hover, #menu-header-menu #menu-item-177 a:hover {
+#menu-header-menu #menu-item-192 a:hover, #menu-header-menu #menu-item-179 a:hover, #menu-header-menu #menu-item-178 a:hover, #menu-header-menu #menu-item-176 a:hover, #menu-header-menu #menu-item-177 a:hover {
     color:white;
 }
 
@@ -128,7 +128,7 @@ nav styles */
 }
 
 /* whatis, about, and gallery styles */
-#learnmore, #aboutsection, #photogallery, #pressinfo {
+#learnmore, #aboutsection, #photogallery, #pressinfo, #eventinfo {
     background-color: black;
     padding: 60px 0 60px 0;
     margin: 0px;
@@ -139,25 +139,15 @@ nav styles */
 }
 
 /* event styles */
-#eventinfo {
-    background-image: linear-gradient(to top, #000000 0%, #ffffff 100%);
-    padding: 0px;
-    margin: 0px;
-}
-
 .tribe-events-list-event-description p, .tribe-delimiter, .events h1, .tribe-event-date-start, .tribe-event-schedule-details, .tribe-event-date-end, .tribe-events-venue-details, .tribe-country-name, .tribe-locality {
     color: #f900d4
 }
+
 /* contact styles */
 .contactsection {
     background-image: linear-gradient(to top, #c50294 0%, #000000 100%);
     width: 100%;
     padding-bottom: 20px;
-    color: white;
-}
-
-.contactsectionevents {
-    background-image: linear-gradient(to top, #c50294 20%, #000000 100%);
     color: white;
 }
 
@@ -172,7 +162,6 @@ nav styles */
 .socials .fa-twitter, .fa-heart, .socials .fa-facebook, .socials .fa-instagram, .socials .fa-envelope {
 color: white;
 }
-
 
 /* footer styles */
 footer {

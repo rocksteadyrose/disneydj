@@ -43,13 +43,25 @@
         <div class="row">
             <div class="col-xs-12 col-md-12 container events">
                 <h1>EVENTS</h1>
-                <?php the_content(); ?>
+                <!-- <?php the_content(); ?> -->
+
+<div class="widgets">
+    <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-12 widget text-center">
+                <?php if ( is_active_sidebar( 'event_widget' ) ) : ?>
+                <?php dynamic_sidebar( 'event_widget' ); ?>
+                <?php endif; ?>
+            </div>
+        </div>
+    </div>
+</div>
             </div>
         </div>
     </div>
 </section>
 
-<div class="col-xs-12 container contactsectionevents" id="contact">
+<div class="col-xs-12 container contactsection" id="contact">
       <h2 class="text-center">We'd
         <i class="fa fa-heart"></i>
         to hear from you!</h2>

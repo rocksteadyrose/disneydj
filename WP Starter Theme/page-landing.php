@@ -37,32 +37,6 @@
 
 <?php if (have_posts()) :  while (have_posts()) : the_post(); ?>
 
-<!-- <div class="widgets">
-    <div class="container">
-        <div class="row">
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_1' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_1' ); ?>
-                <?php endif; ?>
-            </div>
-
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_2' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_2' ); ?>
-                <?php endif; ?>
-            </div>
-
-            <div class="col-xs-12 col-md-4 widget text-center">
-                <?php if ( is_active_sidebar( 'home_widget_3' ) ) : ?>
-                <?php dynamic_sidebar( 'home_widget_3' ); ?>
-                <?php else : ?>
-                widget 3
-                <?php endif; ?>
-            </div>
-        </div>
-    </div>
-</div> -->
-
 <section class="col-xs-12 mb-15" id="learnmore">
     <div class="container">
         <div class="row">
@@ -74,8 +48,8 @@
                <div class="widgets">
                     <div class="container">
                         <div class="col-xs-12 col-md-6 widget text-center">
-                            <?php if ( is_active_sidebar( 'home_widget_2' ) ) : ?>
-                            <?php dynamic_sidebar( 'home_widget_2' ); ?>
+                            <?php if ( is_active_sidebar( 'landingphoto_widget' ) ) : ?>
+                            <?php dynamic_sidebar( 'landingphoto_widget' ); ?>
                             <?php endif; ?>
                         </div>
                     </div>
