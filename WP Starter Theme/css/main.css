@@ -7,11 +7,22 @@ html {
 
 /* DEFAULTS */
 :root {font-size: 16pt;}
-* {font-family: 'Open Sans', sans-serif;
+* {font-family: "mousememoirs", Arial, Helvetica, sans-serif;
 color: #333;font-size: 1rem;}
 body,html {margin: 0;}
 img {max-width: 100%;}
 
+@font-face {
+    font-family: "waltograph";
+    src: url("fonts/waltograph.otf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: "mousememoirs";
+    src: url("fonts/mousememoirs.ttf");
+    font-weight: normal;
+}
 
 /* TREE STYLING
 
@@ -46,10 +57,9 @@ nav styles */
     color:white;
 }
 
-#menu-header-menu .active a {
+#menu-header-menu .active a, a.navbar-brand {
     color: #c50294!important;
 }
-
 
 .navbar #menu-header-menu {
     list-style: none;
@@ -106,6 +116,15 @@ nav styles */
       margin-top: 20px;
   }
 
+  .maintitle {
+      font-family: "waltograph", Arial, Helvetica, sans-serif;
+  }
+
+  p.smallertitle {
+    font-family: "mousememoirs", Arial, Helvetica, sans-serif;
+    font-size: 38px;
+}
+
   /* arrow */
 
     #arrow a:visited {
@@ -156,6 +175,12 @@ nav styles */
 
 #learnmore p, #abouttitle, #learnmore h1, #eventinfo h1, #photogallery h1, #pressinfo p, #pressinfo h1, #aboutsection p {
     color: #c50294;
+}
+
+/* events styles */
+
+svg.bit-logo-desktop, svg.bit-logo-mobile {
+    visibility: hidden;
 }
 
 /* contact styles */

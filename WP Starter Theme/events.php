@@ -48,7 +48,7 @@
 <div class="widgets">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-12 widget text-center">
+            <div class="col-xs-12 widget text-center">
                 <?php if ( is_active_sidebar( 'event_widget' ) ) : ?>
                 <?php dynamic_sidebar( 'event_widget' ); ?>
                 <?php endif; ?>
