@@ -1,6 +1,6 @@
 <?php
 /*
-* Template Name: Press
+* Template Name: Contact
 */
 ?>
 <?php get_header(); ?>
@@ -21,16 +21,14 @@
         <div class="row">
             <div class="col-xs-6" id="jumbotrontext">
                 <h1 class="display-4">BE OUR GUEST NYC</h1>
-                <!-- <p class="lead">Disney Night NYC</p> -->
                 <hr class="my-4">
                 <p>The home of the two most epic DJ parties: DISNEY NIGHT + BROADWAY NIGHT.</p>
-                <!-- <a class="btn btn-primary btn-lg" href="#" role="button">LEARN MORE</a> -->
             </div>
         </div>
 
         <div class="row bounce text-center" id="arrow">
             <div class="col-xs-12">
-                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#pressinfo"></a>
+                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#contactinfo"></a>
             </div>
         </div>
 
@@ -38,25 +36,12 @@
 
 </div>
 
-
-<section class="col-xs-12 mb-15" id="pressinfo">
+<section class="col-xs-12 mb-15" id="contactinfo">
     <div class="container">
         <div class="row">
-            <div class="col-xs-12 col-md-6 container">
-                <h1>PRESSSSSSS</h1>
+            <div class="col-xs-12 col-md-12 container contact">
+                <h1 class="text-center">CONTACT</h1>
                 <?php the_content(); ?>
-            </div>
-            <div class="container aboutus">
-               <div class="widgets">
-                    <!-- <div class="container">
-                        <div class="col-xs-12 col-md-6 widget text-center">
-                            <?php if ( is_active_sidebar( 'home_widget_2' ) ) : ?>
-                            <?php dynamic_sidebar( 'home_widget_2' ); ?>
-                            <?php endif; ?>
-                        </div>
-                    </div> -->
-                </div>
-            </div>
             </div>
         </div>
     </div>

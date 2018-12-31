@@ -65,17 +65,17 @@
       <h2 class="text-center">We'd
         <i class="fa fa-heart"></i>
         to hear from you!</h2>
-      <div class="socials text-center" id="socialicons">
-            <a href="#" target="_blank">
+        <div class="socials text-center" id="socialicons">
+            <!-- <a href="#" target="_blank">
               <i class="fa fa-twitter"></i>
-            </a>
-            <a href="#" target="_blank">
+            </a> -->
+            <a href="https://www.facebook.com/BeOurGuestNY/" target="_blank">
               <i class="fa fa-facebook"></i>
             </a>
-            <a href="#" target="_blank">
+            <a href="http://www.instagram.com/beourguest_nyc/" target="_blank">
               <i class="fa fa-instagram"></i>
             </a>
-            <a href="mailto:contact@contact.com?" target="_top">
+            <a href="mailto:UnderTheSemail@gmail.com" target="_top">
               <i class="fa fa-envelope"></i>
             </a>
       </div>
