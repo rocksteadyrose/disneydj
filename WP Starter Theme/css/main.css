@@ -27,8 +27,55 @@ img {max-width: 100%;}
 /* TREE STYLING
 
 nav styles */
+/* 
+.navbar-brand > img {
+    display: inline-block;
+    margin: auto;
+  }
+
+  .navbar-brand {
+    position: absolute;
+     width: 100%;
+     left: 0;
+     top: 0;
+     text-align: center;
+     margin: auto;
+     height: 30px;
+ } */
+
+ /* .navbar-nav {
+    width: 100%;
+    text-align: center;
+    float: none;
+    display: inline-block;
+ } */
+
+/* .navbar-nav li { 
+  list-style: none;
+  margin: 10px;
+  padding-top: 13px;
+  text-align: center;
+} */
+
+/* Logo On Top Version */
+    .navbar-header {
+        margin: 2px 0 30px 0;
+    }
+
+    .navbar .container-fluid {
+        text-align: center;
+        margin-top: 25px;
+    }
+
+    @media (min-width: 768px) {
+    .navbar-header, .collapse.navbar-collapse {
+        float: none !important; 
+        display: inline-block !important;
+    }
+}
+/* End of Logo On Top Version */
+
 .navbar {
-    margin-top: 25px;
     background-color: transparent;
     -webkit-transition: all 0.6s ease-out;
     -moz-transition: all 0.6s ease-out;
@@ -38,6 +85,12 @@ nav styles */
     border: none;
 }
 
+/* @media(min-width:768px) {
+    .navbar>.container .navbar-brand{
+        margin-left: 0px;
+    }
+} */
+
 .navbar.scrolled {
     background: rgb(68, 68, 68); /* IE */
     background: rgba(0, 0, 0, 0.78); /* NON-IE */
@@ -45,15 +98,15 @@ nav styles */
 
 #menu-header-menu #menu-item-202 a, #menu-header-menu #menu-item-179 a, #menu-header-menu #menu-item-178 a, #menu-header-menu #menu-item-176 a, #menu-header-menu #menu-item-177 a {
     color: rgb(11, 255, 255);
-    padding: 5px 3px;
-    margin: 0 10px 0 5px
+    /* padding: 5px 3px;
+    margin: 0 5px 0 5px; */
 }
 
 #menu-item-177 a, #menu-item-176 a, #menu-item-202 a, #menu-item-179 a, #menu-item-178 a {
     background-color: transparent;
 }
 
-#menu-header-menu #menu-item-202 a:hover, #menu-header-menu #menu-item-202 a:hover, #menu-header-menu #menu-item-178 a:hover, #menu-header-menu #menu-item-176 a:hover, #menu-header-menu #menu-item-177 a:hover {
+#menu-header-menu #menu-item-202 a:hover, #menu-header-menu #menu-item-178 a:hover, #menu-header-menu #menu-item-176 a:hover, #menu-header-menu #menu-item-177 a:hover, #menu-header-menu #menu-item-179 a:hover {
     color:white;
 }
 
@@ -61,30 +114,30 @@ nav styles */
     color: #c50294!important;
 }
 
-.navbar #menu-header-menu {
-    list-style: none;
-    padding: 10px 0;
-}
+/* .navbar #menu-header-menu {
+    padding: 10px 0 40px 0;
+} */
 
-@media (min-width: 768px) {
+/* @media (min-width: 768px) {
     .navbar {
         border-radius: 0;
     }
-}
+} */
 
 @media (min-width: 600px) and (max-width: 767px) {
-    .navbar, .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:visited, .navbar-header .navbar-toggle:active{
-        background-color: black;
+    .navbar-toggle:hover, .navbar-header .navbar-toggle:visited, .navbar-header .navbar-toggle:active{
+        background-color: #c50294;
       }
   
       .navbar .navbar-toggle:focus {
           background-color: #c50294;
           color: black;
       }
+
 }
 
-@media only screen and (max-width: 600px) {
-    .navbar, .navbar-header .navbar-toggle:hover, .navbar-header .navbar-toggle:visited, .navbar-header .navbar-toggle:active{
+@media only screen and (max-width: 767px) {
+    .navbar-toggle:hover, .navbar-header .navbar-toggle:visited, .navbar-header .navbar-toggle:active {
       background-color: black;
     }
 
@@ -93,12 +146,28 @@ nav styles */
         color: black;
     }
 
-    .navbar {
-        margin-top: 0px;
+    .navbar .navbar-toggle {
+        position: fixed;
+         right: 2px;
+         top: 50px;
+    }
+
+    .navbar-collapse {
+        margin-top: 7px;
+    }
+
+    div.container-fluid {
+        background-color: black;
+    }
+
+    .navbar-brand img {
+        height: 60px;
+        margin-top: 5px;
     }
   }
 
-/* home page styles */
+  
+/* Home page styles */
 .jumbotron {
     position: relative;
     overflow: hidden;
@@ -122,18 +191,19 @@ nav styles */
     position: relative;
   }  
 
-  #jumbotrontext, #jumbotrontext p {
-      color: white;
-      margin-top: 20px;
+  .text-white {
+    margin-top: 100px;
   }
 
-  .maintitle {
+  #jumbotrontext {
       font-family: "waltograph", Arial, Helvetica, sans-serif;
+      color: white;
   }
 
-  p.smallertitle {
+  .smallertitle {
     font-family: "mousememoirs", Arial, Helvetica, sans-serif;
     font-size: 38px;
+    color: white;
 }
 
   /* arrow */

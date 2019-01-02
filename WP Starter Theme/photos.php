@@ -19,18 +19,18 @@
 
     <div class="container text-white">
         <div class="row">
-            <div class="col-xs-6" id="jumbotrontext">
-                <h1 class="display-4">BE OUR GUEST NYC</h1>
+            <div class="col-xs-12 col-sm-7 col-lg-5" id="jumbotrontext">
+                <h1 class="maintitle">Be Our Guest: The Disney DJ Night</h1>
                 <!-- <p class="lead">Disney Night NYC</p> -->
-                <hr class="my-4">
-                <p>The home of the two most epic DJ parties: DISNEY NIGHT + BROADWAY NIGHT.</p>
+                <hr>
+                <p class="smallertitle">The home of the two most epic DJ parties: DISNEY NIGHT + BROADWAY NIGHT!</p>
                 <!-- <a class="btn btn-primary btn-lg" href="#" role="button">LEARN MORE</a> -->
             </div>
         </div>
 
         <div class="row bounce text-center" id="arrow">
             <div class="col-xs-12">
-                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#photogallery"></a>
+                <a class="fa fa-arrow-down fa-2x js-scroll-trigger" href="#learnmore"></a>
             </div>
         </div>
 

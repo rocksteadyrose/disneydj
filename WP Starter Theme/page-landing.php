@@ -17,7 +17,7 @@
     <div class="container text-white">
         <div class="row">
             <div class="col-xs-12 col-sm-7 col-lg-5" id="jumbotrontext">
-                <h1 class="maintitle">Be Our Guest NYC</h1>
+                <h1 class="maintitle">Be Our Guest: The Disney DJ Night</h1>
                 <!-- <p class="lead">Disney Night NYC</p> -->
                 <hr>
                 <p class="smallertitle">The home of the two most epic DJ parties: DISNEY NIGHT + BROADWAY NIGHT!</p>
