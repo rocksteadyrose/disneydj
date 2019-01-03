@@ -1,9 +1,6 @@
 html {
     scroll-behavior: smooth;
   }
-/* COLORS */
-.green{color: green;}
-.bg-green{background-color: green;}
 
 /* DEFAULTS */
 :root {font-size: 16pt;}
@@ -26,37 +23,6 @@ img {max-width: 100%;}
 
 /* TREE STYLING
 
-nav styles */
-/* 
-.navbar-brand > img {
-    display: inline-block;
-    margin: auto;
-  }
-
-  .navbar-brand {
-    position: absolute;
-     width: 100%;
-     left: 0;
-     top: 0;
-     text-align: center;
-     margin: auto;
-     height: 30px;
- } */
-
- /* .navbar-nav {
-    width: 100%;
-    text-align: center;
-    float: none;
-    display: inline-block;
- } */
-
-/* .navbar-nav li { 
-  list-style: none;
-  margin: 10px;
-  padding-top: 13px;
-  text-align: center;
-} */
-
 /* Logo On Top Version */
     .navbar-header {
         margin: 2px 0 30px 0;
@@ -75,6 +41,45 @@ nav styles */
 }
 /* End of Logo On Top Version */
 
+/* Logo in middle version (add Navbar-Rights and Navbar-Lefts in Wordpress 'Edit Menu/CSS on each menu item for this functionality to fully work)
+*/
+
+/* .navbar-brand > img {
+    display: inline-block;
+    margin: auto;
+  }
+
+  .navbar-brand {
+    position: absolute;
+     width: 100%;
+     left: 0;
+     top: 0;
+     text-align: center;
+     margin: auto;
+     height: 30px;
+ }
+
+ .navbar-nav {
+    width: 100%;
+    text-align: center;
+    float: none;
+    display: inline-block;
+ }
+
+.navbar-nav li { 
+  list-style: none;
+  margin: 10px;
+  padding-top: 13px;
+  text-align: center;
+}
+
+/* @media(min-width:768px) {
+    .navbar>.container .navbar-brand{
+        margin-left: 0px;
+    }
+} */
+
+
 .navbar {
     background-color: transparent;
     -webkit-transition: all 0.6s ease-out;
@@ -85,12 +90,6 @@ nav styles */
     border: none;
 }
 
-/* @media(min-width:768px) {
-    .navbar>.container .navbar-brand{
-        margin-left: 0px;
-    }
-} */
-
 .navbar.scrolled {
     background: rgb(68, 68, 68); /* IE */
     background: rgba(0, 0, 0, 0.78); /* NON-IE */
@@ -98,8 +97,6 @@ nav styles */
 
 #menu-header-menu #menu-item-202 a, #menu-header-menu #menu-item-179 a, #menu-header-menu #menu-item-178 a, #menu-header-menu #menu-item-176 a, #menu-header-menu #menu-item-177 a {
     color: rgb(11, 255, 255);
-    /* padding: 5px 3px;
-    margin: 0 5px 0 5px; */
 }
 
 #menu-item-177 a, #menu-item-176 a, #menu-item-202 a, #menu-item-179 a, #menu-item-178 a {
@@ -114,15 +111,6 @@ nav styles */
     color: #c50294!important;
 }
 
-/* .navbar #menu-header-menu {
-    padding: 10px 0 40px 0;
-} */
-
-/* @media (min-width: 768px) {
-    .navbar {
-        border-radius: 0;
-    }
-} */
 
 @media (min-width: 600px) and (max-width: 767px) {
     .navbar-toggle:hover, .navbar-header .navbar-toggle:visited, .navbar-header .navbar-toggle:active{
@@ -153,7 +141,7 @@ nav styles */
     }
 
     .navbar-collapse {
-        margin-top: 7px;
+        margin-top: 40px;
     }
 
     div.container-fluid {
@@ -186,13 +174,14 @@ nav styles */
     object-fit: cover;
     opacity:0.5;
   }
+
   .jumbotron .container {
     z-index: 2;
     position: relative;
   }  
 
   .text-white {
-    margin-top: 100px;
+    margin-top: 130px;
   }
 
   #jumbotrontext {
@@ -258,18 +247,52 @@ nav styles */
     color: #c50294;
 }
 
+#learnmore h1, #contactinfo h1, #abouttitle h1, #eventinfo h1, #contactinfo h1 {
+    margin-top: -10px;
+}
+
 /* events styles */
 
 svg.bit-logo-desktop, svg.bit-logo-mobile {
     visibility: hidden;
 }
 
+.bit-show-upcoming, .bit-show-past, .bit-date, .bit-location, .bit-track-button-container, .bit-top-track-button, .bit-no-dates-title, .bit-event-list-title, .bit-widget .bit-top-track-button span, .bit-widget .bit-no-dates-container div, .bit-no-dates-container b {
+    color: white;
+}
 /* contact styles */
 .contactsection {
     background-image: linear-gradient(to top, #c50294 0%, #000000 100%);
     width: 100%;
     padding-bottom: 20px;
     color: white;
+}
+
+.contact a {
+    color: rgb(11, 255, 255);
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.contact a:active, .contact a:visited  {
+    color: #c50294;
+    text-decoration: none;
+}
+
+#wpforms-submit-203 {
+    margin: 0 auto;
+    display: block;
+    width: 250px;
+    background-color: #c50294;
+    color: yellow;
+}
+
+#wpforms-submit-203:hover {
+color: rgb(11, 255, 255);
 }
 
 .wpforms-field-label {
